@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "搜索菜品",
+  "usingComponents": {
+    "hmsearch": "/components/HM-search"
+  }
+}

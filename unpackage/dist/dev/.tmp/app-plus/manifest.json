@@ -1,0 +1,186 @@
+{
+  "@platforms": [
+    "android",
+    "iPhone",
+    "iPad"
+  ],
+  "id": "__UNI__94F975A",
+  "name": "codeOrder",
+  "version": {
+    "name": "1.0.0",
+    "code": "100"
+  },
+  "description": "",
+  "launch_path": "__uniappview.html",
+  "developer": {
+    "name": "",
+    "email": "",
+    "url": ""
+  },
+  "permissions": {
+    "Payment": {},
+    "OAuth": {},
+    "VideoPlayer": {},
+    "UniNView": {
+      "description": "UniNView原生渲染"
+    }
+  },
+  "plus": {
+    "useragent": {
+      "value": "uni-app",
+      "concatenate": true
+    },
+    "splashscreen": {
+      "target": "id:1",
+      "autoclose": true,
+      "waiting": true,
+      "delay": 0
+    },
+    "popGesture": "close",
+    "launchwebview": {
+      "render": "always",
+      "id": "1",
+      "kernel": "WKWebview",
+      "uni-app": "auto"
+    },
+    "statusbar": {
+      "immersed": "supportedDevice",
+      "style": "light",
+      "background": "#FEB026"
+    },
+    "usingComponents": true,
+    "distribute": {
+      "icons": {
+        "android": {
+          "hdpi": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+          "xhdpi": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+          "xxhdpi": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+          "xxxhdpi": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png"
+        },
+        "ios": {
+          "appstore": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+          "iphone": {
+            "app@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "app@3x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "spotlight@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "spotlight@3x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "settings@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "settings@3x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "notification@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "notification@3x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png"
+          },
+          "ipad": {
+            "app": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "app@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "proapp@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "spotlight": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "spotlight@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "settings": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "settings@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "notification": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png",
+            "notification@2x": "C:/Users/kejianet5/Desktop/图片资源/ZMLogo.png"
+          }
+        }
+      },
+      "splashscreen": {
+        "android": {
+          "hdpi": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+          "xhdpi": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+          "xxhdpi": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png"
+        },
+        "ios": {
+          "iphone": {
+            "portrait-896h@3x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "landscape-896h@3x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "portrait-896h@2x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "landscape-896h@2x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "iphonex": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "iphonexl": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "retina55": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "retina55l": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "retina47": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "retina47l": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "retina40": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "retina40l": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "retina35": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png"
+          },
+          "ipad": {
+            "portrait-1366h@2x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "landscape-1366h@2x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "portrait-1194h@2": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "landscape-1194h@2x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "portrait-1112h@2x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "landscape-1112h@2x": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "portrait-retina7": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "landscape-retina7": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "portrait7": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png",
+            "landscape7": "C:/Users/kejianet5/Desktop/图片资源/openIMG.png"
+          }
+        }
+      },
+      "google": {
+        "permissions": [
+          "<uses-feature android:name=\"android.hardware.camera\"/>",
+          "<uses-feature android:name=\"android.hardware.camera.autofocus\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CALL_PHONE\"/>",
+          "<uses-permission android:name=\"android.permission.CAMERA\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_NETWORK_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.CHANGE_WIFI_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.FLASHLIGHT\"/>",
+          "<uses-permission android:name=\"android.permission.GET_ACCOUNTS\"/>",
+          "<uses-permission android:name=\"android.permission.INTERNET\"/>",
+          "<uses-permission android:name=\"android.permission.MODIFY_AUDIO_SETTINGS\"/>",
+          "<uses-permission android:name=\"android.permission.MOUNT_UNMOUNT_FILESYSTEMS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_LOGS\"/>",
+          "<uses-permission android:name=\"android.permission.READ_PHONE_STATE\"/>",
+          "<uses-permission android:name=\"android.permission.RECORD_AUDIO\"/>",
+          "<uses-permission android:name=\"android.permission.VIBRATE\"/>",
+          "<uses-permission android:name=\"android.permission.WAKE_LOCK\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_CONTACTS\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\"/>",
+          "<uses-permission android:name=\"android.permission.WRITE_SETTINGS\"/>"
+        ]
+      },
+      "apple": {},
+      "plugins": {
+        "push": {},
+        "oauth": {
+          "weixin": {
+            "appid": "wx1a577e8cd5f6cf95",
+            "appsecret": "0b40bee5e030b61a4b20abac8312701d",
+            "UniversalLinks": ""
+          }
+        },
+        "payment": {
+          "weixin": {
+            "appid": "wx1a577e8cd5f6cf95",
+            "UniversalLinks": ""
+          }
+        },
+        "share": {},
+        "maps": {},
+        "ad": {},
+        "audio": {
+          "mp3": {
+            "description": "Android平台录音支持MP3格式文件"
+          }
+        }
+      }
+    },
+    "allowsInlineMediaPlayback": true,
+    "uni-app": {
+      "compilerVersion": "2.5.1",
+      "control": "v8",
+      "nvueCompiler": "uni-app",
+      "renderer": "auto",
+      "nvue": {
+        "flex-direction": "column"
+      }
+    }
+  }
+}

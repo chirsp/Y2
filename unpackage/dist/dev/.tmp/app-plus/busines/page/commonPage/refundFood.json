@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "退菜申请",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "nodata": "/components/nodata",
+    "showmodal": "/components/showmodal"
+  }
+}

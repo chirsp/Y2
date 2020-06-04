@@ -1,0 +1,522 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主题色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.mar-r10 {
+  margin-right: 12rpx;
+}
+.mar-t10 {
+  margin-top: 12rpx;
+}
+page {
+  background: #EEEEEE;
+}
+.shouqi_icon {
+  width: 20rpx;
+  height: 20rpx;
+}
+.needscanBox {
+  position: fixed;
+  background-color: #fef8f6;
+  width: 100%;
+  height: 100%;
+}
+.needscanBox .topbox {
+    width: 100%;
+}
+.needscanBox .topbox .topImg {
+      width: 100%;
+      height: 160rpx;
+}
+.needscanBox .topbox .topInfo {
+      margin-top: 120rpx;
+      position: absolute;
+      z-index: 2;
+}
+.needscanBox .topbox .topInfo .topHead {
+        width: 140rpx;
+        height: 140rpx;
+        margin-bottom: 25rpx;
+        border-radius: 50%;
+}
+.index_bg {
+  width: 100%;
+  height: 100%;
+  margin-top: 180rpx;
+}
+.goods {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.goods .goods-item {
+    width: 340rpx;
+    margin-bottom: 30rpx;
+}
+.goods .goods-item .goods-img {
+      border-radius: 30rpx 30rpx 0 0;
+      width: 100%;
+      height: 337rpx;
+      display: block;
+}
+.goods .goods-item .goods-msg {
+      background: #fff;
+      border-radius: 0 0 30rpx 30rpx;
+      padding: 20rpx;
+}
+.goods .goods-item .goods-msg .goods-name {
+        font-size: 24rpx;
+        font-weight: bold;
+        color: #222222;
+        line-height: 40rpx;
+        overflow: hidden;
+}
+.goods .goods-item .goods-msg .goods-price {
+        font-size: 29rpx;
+        font-weight: bold;
+        color: #222222;
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+                align-items: center;
+}
+.goods .goods-item .goods-msg .goods-price2 {
+        font-size: 23rpx;
+        text-decoration: line-through;
+        color: #888888;
+        margin-left: 20rpx;
+}
+.info-re {
+  position: relative;
+  height: 100rpx;
+}
+.info-re .info-ab {
+    position: absolute;
+    top: -103rpx;
+    left: 26rpx;
+    right: 26rpx;
+}
+.info-re .info-ab .info-ab-top {
+      padding: 24rpx 30rpx 24rpx;
+      background: #fff;
+      border-radius: 30rpx;
+}
+.info-re .info-ab .info-ab-top .logo {
+        width: 111rpx;
+        height: 111rpx;
+        margin-right: 15rpx;
+        border-radius: 50%;
+}
+.info-re .info-ab .info-ab-top .address {
+        font-size: 26rpx;
+        color: #666666;
+        line-height: 40rpx;
+        min-height: 40rpx;
+        max-height: 80rpx;
+        overflow: hidden;
+}
+.info-re .info-ab .info-ab-top .address2 {
+        font-size: 26rpx;
+        color: #666666;
+}
+.info-re .info-ab .info-ab-top .info-detail .detail-tag {
+        padding-top: 40rpx;
+        -webkit-flex-wrap: wrap;
+                flex-wrap: wrap;
+}
+.info-re .info-ab .info-ab-top .info-detail .tag-item {
+        font-size: 28rpx;
+        color: #555;
+        width: 50%;
+        margin-bottom: 20rpx;
+}
+.info-re .info-ab .info-ab-top .info-detail .detail-title {
+        font-size: 26rpx;
+        color: #222;
+        padding: 24rpx 0 6rpx;
+}
+.info-re .info-ab .info-ab-top .info-detail .detail-text {
+        font-size: 24rpx;
+        color: #555;
+        line-height: 40rpx;
+}
+.coupon {
+  -webkit-align-self: flex-start;
+          align-self: flex-start;
+  padding: 30rpx 6rpx 30rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.coupon .coupon-title {
+    font-size: 34rpx;
+    font-weight: bold;
+    color: #fc6840;
+    letter-spacing: 4rpx;
+}
+.coupon .more-text {
+    font-size: 24rpx;
+    color: #444;
+}
+.coupon-list {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.coupon-list .coupon-item {
+    width: 350rpx;
+    height: 112rpx;
+    color: #fff;
+    font-size: 26rpx;
+    position: relative;
+}
+.coupon-list .coupon-item .coupon-item-img {
+      width: 350rpx;
+      height: 112rpx;
+}
+.coupon-list .coupon-item .coupon-item-main {
+      position: absolute;
+      top: 14rpx;
+      right: 0;
+      left: 20rpx;
+      bottom: 0;
+}
+.coupon-list .coupon-item .coupon-item-main .price {
+        font-size: 32rpx;
+        color: #fda227;
+}
+.coupon-list .coupon-item .coupon-item-main .contain {
+        font-size: 28rpx;
+        color: #222;
+}
+.saoma-block-user {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-top: 100rpx;
+}
+.saoma-headimg-ico {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 50%;
+  position: relative;
+}
+.head-ab {
+  position: absolute;
+  top: -20rpx;
+  right: -20rpx;
+  left: -20rpx;
+  bottom: -20rpx;
+  border-radius: 50%;
+  border: 20rpx solid #eee;
+  box-sizing: content-box;
+}
+.saoma-username {
+  color: #666666;
+  font-size: 28rpx;
+  margin-left: 20rpx;
+}
+.saoma-tip {
+  color: #222222;
+  font-size: 30rpx;
+  text-align: center;
+  margin-top: 20rpx;
+}
+.saoma-img-block {
+  text-align: center;
+  margin: 40rpx;
+}
+.saoma-img {
+  width: 415rpx;
+  height: 431rpx;
+}
+.saoma-btn-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-top: 100rpx;
+}
+.saoma-btn {
+  width: 587rpx;
+  height: 88rpx;
+  line-height: 88rpx;
+  font-weight: bold;
+  font-size: 32rpx;
+  color: #ffffff;
+  background-color: #fc6840;
+  text-align: center;
+  border-radius: 50rpx;
+}
+.list-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.list-title {
+  font-size: 34rpx;
+  font-weight: bold;
+  color: #fc6840;
+  letter-spacing: 4rpx;
+  margin: 41rpx 6rpx 30rpx;
+  -webkit-align-self: flex-start;
+          align-self: flex-start;
+}
+/* 店铺信息 start */
+.bk-img {
+  width: 750rpx;
+  height: 408rpx;
+}
+.nav {
+  width: 702rpx;
+  height: 165rpx;
+  border-radius: 30rpx;
+  background-color: #ffffff;
+  position: relative;
+  top: -103rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  margin: 0 auto -83rpx;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.shop-img-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.shop_img {
+  width: 143rpx;
+  height: 143rpx;
+  margin: 0 14rpx 0 14rpx;
+}
+.shop_name {
+  padding: 12rpx 0 16rpx;
+  font-size: 30rpx;
+  color: #222222;
+  font-weight: bold;
+}
+.shop_address {
+  font-size: 24rpx;
+  color: #666666;
+  margin-top: 23rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.shop_more {
+  font-size: 22rpx;
+  color: #666666;
+  -webkit-align-self: flex-end;
+          align-self: flex-end;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-left: 78rpx;
+}
+.shop_more image {
+  width: 17rpx;
+  height: 11rpx;
+  margin-left: 8rpx;
+}
+/* 店铺信息 end */
+/* 为你优选 start */
+.list-middle {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.list-middle-1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  position: relative;
+  width: 340rpx;
+}
+.list-img1 {
+  width: 341rpx;
+  height: 354rpx;
+  border-radius: 20rpx;
+}
+.list-middle-2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  width: 340rpx;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  position: relative;
+}
+.list-img2,
+.list-img3 {
+  width: 339rpx;
+  height: 165rpx;
+  border-radius: 20rpx;
+}
+.title1,
+.title2,
+.title3 {
+  width: 139rpx;
+  height: 46rpx;
+  font-size: 28rpx;
+  color: #ffffff;
+  background-color: #ff7901;
+  text-align: center;
+  line-height: 46rpx;
+  border-radius: 20rpx 0 20rpx 0;
+  z-index: 970;
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+.title2 {
+  background-color: #feb026;
+  top: 0;
+}
+.title3 {
+  background-color: #ff4f01;
+  top: 190rpx;
+}
+/* 为你优选 end */
+/* 本店招牌 start */
+.list-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+}
+.list-pop {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 20rpx;
+}
+.list-pop-img {
+  width: 341rpx;
+  height: 337rpx;
+}
+.pop-name {
+  font-size: 24rpx;
+  font-weight: bold;
+  margin-left: 22rpx;
+  margin-top: 21rpx;
+}
+.pop-price {
+  font-size: 29rpx;
+  font-weight: bold;
+  margin: 21rpx 0 26rpx 22rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.pop-msg {
+  background-color: #ffffff;
+  border-bottom-left-radius: 30rpx;
+  border-bottom-right-radius: 30rpx;
+  margin-top: -9rpx;
+}
+.price-through {
+  font-size: 23rpx;
+  color: #888888;
+  text-decoration: line-through;
+  font-weight: 500;
+  margin-left: 14rpx;
+}
+/* 本店招牌 end */
+

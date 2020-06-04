@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "首页",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "x-footer": "/components/footer",
+    "showmodal": "/components/showmodal",
+    "drag-button": "/components/drag-button"
+  }
+}

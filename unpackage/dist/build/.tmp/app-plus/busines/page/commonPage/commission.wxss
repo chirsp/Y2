@@ -1,0 +1,28 @@
+.list {
+  background: #ffffff;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  padding: 0 30rpx;
+}
+.list .item {
+  padding: 25rpx;
+}
+.bor-t {
+  border-top: 1rpx solid #EEEEEE;
+}
+.top {
+  margin: 30rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  padding: 60rpx 30rpx;
+}
+.top .left text {
+  margin-left: 10rpx;
+}
+.cashBtn {
+  padding: 10rpx 20rpx;
+  border-radius: 10rpx;
+}
+

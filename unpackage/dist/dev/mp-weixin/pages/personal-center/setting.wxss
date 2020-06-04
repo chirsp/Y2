@@ -1,0 +1,54 @@
+page {
+  background: #f7f7f7;
+}
+.outlogin {
+  margin: 30rpx 0;
+  text-align: center;
+  padding: 30rpx 0;
+  color: red;
+  background-color: #FFFFFF;
+}
+.my-order-n {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 30rpx 24rpx;
+  border-bottom: 1px solid #EEEEEE;
+  background-color: #FFFFFF;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.border-bottom {
+  border: none;
+}
+.add-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.btn-group {
+  font-size: 24rpx;
+  color: #888888;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ico-ico image {
+  width: 17rpx;
+  height: 28rpx;
+}
+.ico-ico {
+  margin-left: 14rpx;
+}
+

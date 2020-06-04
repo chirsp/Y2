@@ -1,0 +1,133 @@
+.flex-row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.flex-col {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.flex-sb {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.cred {
+  color: #FC6840;
+}
+.c66 {
+  color: #666666;
+}
+.f30 {
+  font-size: 30rpx;
+}
+.borderT {
+  border-top: 1rpx solid #EEEEEE;
+}
+/* 切换 start */
+.switch-block {
+  height: 87rpx;
+  background-color: #FFFFFF;
+  font-size: 28rpx;
+  color: #555555;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  padding: 0 54rpx;
+  position: fixed;
+  z-index: 980;
+  left: 0;
+  right: 0;
+  top: 0;
+}
+.checked {
+  color: #F37B1D;
+  font-weight: bold;
+  border-bottom: 4rpx solid #F37B1D;
+}
+.switch1 {
+  height: 100%;
+  line-height: 87rpx;
+}
+/* 切换 end */
+.content {
+  background-color: #FFFFFF;
+  margin-bottom: 30rpx;
+}
+.content .list {
+  margin: 0 32rpx;
+}
+.content .top {
+  padding: 28rpx 0;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.content .top .num {
+  font-size: 32rpx;
+  padding: 0 10rpx;
+}
+.content .detail {
+  padding: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.content .detail .left {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 5rpx;
+  background-color: #EEEEEE;
+  margin-right: 54rpx;
+}
+.content .detail .right {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.content .detail .finsh {
+  font-size: 26rpx;
+  padding: 12rpx 20rpx;
+  border-radius: 10rpx;
+}
+.content .detail .unfinsh-btn {
+  background-color: #F37B1D;
+  color: #FFFFFF;
+}
+.content .detail .unfinsh-bg {
+  color: #F37B1D;
+}
+.content .detail .finsh-bg {
+  color: #666;
+}
+.content .tip {
+  padding: 0 30rpx 15rpx;
+}
+.content .status {
+  text-align: center;
+  padding: 30rpx 0;
+  font-size: 32rpx;
+  letter-spacing: 12rpx;
+}
+.content .unstatus-bg {
+  background-color: rgba(252, 104, 64, 0.1);
+}
+.content .status-bg {
+  background-color: #f7f7f7;
+}
+

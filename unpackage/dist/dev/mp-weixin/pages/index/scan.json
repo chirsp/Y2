@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "showmodal": "/components/showmodal",
+    "x-footer": "/components/footer"
+  }
+}

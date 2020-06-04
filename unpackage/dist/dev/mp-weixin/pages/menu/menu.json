@@ -1,0 +1,12 @@
+{
+  "navigationBarTitleText": "菜单",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "x-footer": "/components/footer",
+    "goods": "/components/goods",
+    "evaluate": "/components/evaluate",
+    "drag-button": "/components/drag-button",
+    "nodata": "/components/nodata",
+    "showmodal": "/components/showmodal"
+  }
+}

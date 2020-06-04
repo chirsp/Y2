@@ -1,0 +1,246 @@
+/* 
+主题色 
+ */
+
+.mCol {
+    color: #FEB026;
+}
+
+.mBg {
+    background-color: #FEB026;
+}
+
+.mbor {
+    border: 1upx solid #FEB026;
+}
+
+.align_c {
+    text-align: center;
+}
+
+.align_r {
+    text-align: right;
+}
+
+.align_l {
+    text-align: left;
+}
+
+
+/* ==================
+          flex
+ ==================== */
+
+.flex_sb {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex_row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex_col {
+    display: flex;
+    flex-direction: column;
+}
+
+.flex_ai {
+    display: flex;
+    align-items: center;
+}
+
+.flex_sa {
+    display: flex;
+    justify-content: space-around;
+}
+
+.flex_center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row_center {
+    display: flex;
+    justify-content: center;
+}
+
+._flex {
+    display: flex;
+    align-items: center;
+}
+
+._flex-sb {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* 水平垂直居中 */
+
+._flex-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+._flex-1 {
+    flex: 1;
+}
+
+._flex-2 {
+    flex: 2;
+}
+
+
+/* ==================
+          position
+ ==================== */
+
+._re {
+    position: relative;
+}
+
+._sticky {
+    position: sticky;
+    top: 0;
+    z-index: 980;
+}
+
+
+/* ==================
+          font-size
+ ==================== */
+
+._fw {
+    font-weight: bold;
+}
+
+._f20 {
+    font-size: 20upx;
+}
+
+._f22 {
+    font-size: 22upx;
+}
+
+._f24 {
+    font-size: 24upx;
+}
+
+._f26 {
+    font-size: 26upx;
+}
+
+._f28 {
+    font-size: 28upx;
+}
+
+._f30 {
+    font-size: 30upx;
+}
+
+._f32 {
+    font-size: 32upx;
+}
+
+._f34 {
+    font-size: 34upx;
+}
+
+._f36 {
+    font-size: 36upx;
+}
+
+._f40 {
+    font-size: 40upx;
+}
+
+._f44 {
+    font-size: 44upx;
+}
+
+
+/* ==================
+        font color
+ ==================== */
+
+._c00 {
+    color: #000;
+}
+
+._c22 {
+    color: #222;
+}
+
+._c33 {
+    color: #333;
+}
+
+._c44 {
+    color: #444;
+}
+
+._c66 {
+    color: #666;
+}
+
+._c88 {
+    color: #888;
+}
+
+._c99 {
+    color: #999;
+}
+
+._cee {
+    color: #eee;
+}
+
+._cdd {
+    color: #ddd;
+}
+
+._cff {
+    color: #fff;
+}
+
+
+/* 旋转 */
+
+.rotate {
+    /* 旋转中心要是正中间 才行 */
+    transform-origin: center center;
+    transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    /* 过度时间 可调 */
+    transition: transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+    -ms-transition: -ms-transform 0.2s;
+}
+
+.rotate1 {
+    transform-origin: center center;
+    /* 返回原点 */
+    transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -moz-transform: rotate(deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transition: transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -moz-transition: -moz-transform 0.2s;
+    -o-transition: -o-transform 0.2s;
+    -ms-transition: -ms-transform 0.2s;
+}

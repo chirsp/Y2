@@ -1,0 +1,157 @@
+
+.head {
+		height: 90rpx;
+		background: rgba(254, 176, 38, 1);
+		opacity: 1;
+		padding-left: 32rpx;
+		padding-top: 5rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+}
+.Sou {
+		width: 35rpx;
+		height: 35rpx;
+		margin-left: 21rpx;
+		position: absolute;
+		margin-top: 16rpx;
+}
+.space{
+		height: 100rpx;
+}
+input {
+		width: 610rpx;
+		height: 66rpx;
+		background: rgba(248, 248, 248, 1);
+		opacity: 1;
+		border-radius: 30rpx;
+		padding-left: 73rpx;
+}
+.biao {
+		width: 750rpx;
+		height: 85rpx;
+		background: rgba(255, 255, 255, 1);
+		box-shadow: 0rpx 8rpx 15rpx rgba(114, 124, 142, 0.06);
+		opacity: 1;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		padding-top: 30rpx;
+		padding-left: 165rpx;
+}
+.order {
+		width: 64rpx;
+		height: 45rpx;
+		font-size: 32rpx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		line-height: 45rpx;
+		color: rgba(102, 102, 102, 1);
+		opacity: 1;
+}
+.evaluate {
+		color: #FEB026;
+		margin-left: 302rpx;
+}
+.txt {
+		width: 112rpx;
+		height: 45rpx;
+		font-size: 22rpx;
+		font-family: PingFang SC;
+		font-weight: 500;
+		line-height: 30rpx;
+		color: rgba(153, 153, 153, 1);
+		opacity: 1;
+		margin-left: 10rpx;
+}
+.evapaper {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		padding-top: 32rpx;
+		padding-left: 34rpx;
+}
+.details {
+		margin-left: 20rpx;
+}
+.name {
+		height: 45rpx;
+		font-size: 32rpx;
+		font-family: PingFangSC-Medium;
+		line-height: 33rpx;
+		color: rgba(102, 102, 102, 1);
+		opacity: 1;
+}
+.data {
+		font-size: 24rpx;
+		font-family: PingFangSC-Medium;
+		color: rgba(153, 153, 153, 1);
+		opacity: 1;
+		margin-top: 10rpx;
+}
+.evaimg {
+		width: 80rpx;
+		height: 80rpx;
+        border-radius: 10rpx;
+}
+.Star {
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+}
+.score {
+		height: 33rpx;
+		font-size: 24rpx;
+		font-family: PingFangSC-Medium;
+		line-height: 33rpx;
+		color: rgba(102, 102, 102, 1);
+		opacity: 1;
+}
+.ViewStar {
+		margin-left: 3rpx;
+}
+.StarImg {
+		width: 25rpx;
+		height: 25rpx;
+		margin-left: 3rpx;
+}
+.matter {}
+.mattertxt {
+		margin-top: 15rpx;
+		height: 33rpx;
+		font-size: 27rpx;
+		font-family: PingFangSC-Medium;
+		line-height: 33rpx;
+		color: rgba(102, 102, 102, 1);
+		opacity: 1;
+}
+.matterImg {
+		width: 128rpx;
+		height: 128rpx;
+		margin-top: 15rpx;
+		background-color: #EEEEEE;
+		margin-right: 10rpx;
+		border-radius: 10rpx;
+}
+.answer {
+		width: 592rpx;
+		height: 60rpx;
+		background: rgba(238, 238, 238, 1);
+		opacity: 1;
+		border-radius: 8rpx;
+		color: rgba(102, 102, 102, 1);
+		padding-left: 15rpx;
+		padding-top: 20rpx;
+		font-size: 26rpx;
+}
+.answertxt {
+		width: 384rpx;
+		height: 33rpx;
+		font-size: 24rpx;
+		font-family: PingFangSC-Medium;
+		line-height: 33rpx;
+		color: rgba(102, 102, 102, 1);
+		opacity: 1;
+		margin-left: 10rpx;
+}
+

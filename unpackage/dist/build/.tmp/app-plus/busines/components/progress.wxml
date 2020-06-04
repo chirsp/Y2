@@ -1,0 +1,1 @@
+<view class="bg-white width100"><view class="flex_ai flex_row margin-top"><view class="cu-progress round flex_row flex_ai" style="height:15rpx;"><view class="bg-yellow" style="{{'width:'+(loading?num+'%':'')+';'}}"></view></view><text class="margin-left">{{num+"%"}}</text></view></view>

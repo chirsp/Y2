@@ -1,0 +1,96 @@
+page {
+  background-color: #FFFFFF;
+}
+.timenav {
+  width: 200rpx;
+}
+.todayALl {
+  padding: 40rpx 30rpx 50rpx 30rpx;
+}
+.todayALl .title {
+  margin-bottom: 15;
+  font-size: 28rpx;
+  color: #EEEEEE;
+}
+.todayALl .num {
+  font-size: 62rpx;
+}
+.todayALl .right {
+  text-align: right;
+}
+.todayALl .border {
+  border-left: 1rpx dashed #FFFFFF;
+}
+.todayALl .box {
+  width: 50%;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.noallImg {
+  width: 500rpx;
+  height: 350rpx;
+  margin: 150rpx 0 20rpx 0;
+}
+.dishTotal {
+  padding: 45rpx 30rpx;
+}
+.dishTotal .title {
+  margin-bottom: 25rpx;
+}
+.dishTotal .item-name {
+  margin-bottom: 20rpx;
+}
+/*样式的width和height一定要与定义的cWidth和cHeight相对应*/
+.qiun-charts {
+  width: 750rpx;
+  height: 500rpx;
+  background-color: #FFFFFF;
+  border-bottom: 20rpx solid #EEEEEE;
+}
+.charts {
+  width: 750rpx;
+  height: 500rpx;
+  background-color: #FFFFFF;
+}
+.total-num {
+  margin: 38rpx;
+}
+.total-num text {
+  margin-bottom: 20rpx;
+}
+.space {
+  height: 200rpx;
+}
+.top {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.top .topbanner {
+  padding: 20rpx 0;
+}
+.top .nav {
+  box-shadow: 0rpx 8rpx 15rpx rgba(114, 124, 142, 0.06);
+  opacity: 1;
+}
+.top .topSelect {
+  border: 1rpx solid #333333;
+  width: 600rpx;
+  margin: auto;
+}
+.top .mB33 {
+  background-color: #333333;
+}
+.top .item {
+  width: 200rpx;
+  padding: 13rpx 0;
+  text-align: center;
+}
+.top .bor-left {
+  border-left: 1rpx solid #333333;
+}
+

@@ -1,0 +1,73 @@
+page {
+  background-color: #f7f7f7;
+}
+.mar-t12 {
+  margin-top: 12rpx;
+}
+.mar-r20 {
+  width: 26%;
+}
+.bor-t {
+  border-top: 1rpx solid #EEEEEE;
+}
+.bor-bt {
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.dishViedo {
+  width: 100%;
+  height: 400rpx;
+  margin-top: 20rpx;
+}
+.addpeople {
+  width: 90%;
+  padding: 24rpx 0;
+  text-align: center;
+  margin: 43rpx auto;
+  border-radius: 20rpx;
+}
+.box {
+  margin-bottom: 20rpx;
+  padding: 0 30rpx;
+  background-color: #FFFFFF;
+}
+.info {
+  padding: 26rpx 0rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.info .infoInput {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  margin-left: 30rpx;
+  border: none;
+  font-size: 28rpx;
+  text-align: right;
+}
+.info .infoInput .selectIncon {
+  width: 24rpx;
+  height: 24rpx;
+  margin-left: 10rpx;
+}
+.pos_re {
+  position: relative;
+}
+.uploadImg-img {
+  width: 132rpx;
+  height: 132rpx;
+  background: #eeeeee;
+  opacity: 1;
+  border-radius: 20rpx;
+  margin: 0 20rpx 20rpx 0;
+  position: relative;
+}
+.delImg {
+  width: 25rpx;
+  height: 25rpx;
+  position: absolute;
+  z-index: 2;
+  margin-left: -36rpx;
+  margin-top: -10rpx;
+}
+

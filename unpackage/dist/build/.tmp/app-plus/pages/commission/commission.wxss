@@ -1,0 +1,222 @@
+
+page {
+	/* background: #fff; */
+}
+.mar-r15 {
+	margin-right: 25rpx;
+}
+.f24 {
+	font-size: 24rpx;
+}
+.f34 {
+	font-size: 34rpx;
+}
+.flex-row{
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.dataselect {
+	background-color: #FC6840;
+	padding: 20rpx;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: row;
+	        flex-direction: row;
+}
+.dataicon {
+	width: 35rpx;
+	height: 32rpx;
+	margin-right: 20rpx;
+}
+.datatime{
+	color: #FFFFFF;
+	font-size: 26rpx;
+}
+.list-block {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: space-between;
+	-webkit-align-items: space-between;
+	        align-items: space-between;
+	margin-bottom: 37rpx;
+}
+.list {
+	width: 628rpx;
+	border-radius: 30rpx;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	padding: 20rpx 30rpx;
+	margin-top: 20rpx;
+}
+.list-t {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	color: #555555;
+	font-size: 26rpx;
+	font-weight: bold;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.list-b {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	margin-top: 20rpx;
+}
+.list-b-1 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.list-b-1 image {
+	width: 80rpx;
+	height: 80rpx;
+	margin-right: 10rpx;
+	border-radius: 10rpx;
+}
+.list-t-2 {
+	color: #444444;
+	font-size: 24rpx;
+	font-weight: 500;
+}
+.list-t-1 {
+	font-size: 26rpx;
+	color: #555555;
+	font-weight: bold;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+}
+.list-b-2 {
+	color: #FC6840;
+	/* font-weight: bold; */
+}
+.top {
+	color: #555555;
+	font-weight: bold;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin: 0rpx 66rpx 0 43rpx;
+}
+.top-1 {
+	font-size: 30rpx;
+}
+.top-2 {
+	font-size: 26rpx;
+}
+.bottom {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.billing-details {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+}
+.billing {
+	width: 100%;
+	background-color: #FFFFFF;
+	margin-bottom: 28rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	color: #222222;
+}
+.time {
+	font-size: 34rpx;
+	margin: 28rpx 0 23rpx 40rpx;
+}
+
+/* .list {
+	display: flex;
+	flex-direction: column;
+	border-top: 1upx solid #EEEEEE;
+	padding: 27upx 41upx 30upx 88upx;
+} */
+.list-1,
+.list2 {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.list-1 {
+	font-size: 34rpx;
+	color: #222222;
+}
+.list-1-price {
+	color: #FC6840;
+}
+.list2 {
+	color: #666666;
+	font-size: 28rpx;
+	margin-top: 19rpx;
+}
+.list-2-price {
+	color: #FF9000;
+}
+
+/* 账单明细 end */
+.white-block {
+	height: 80rpx;
+}
+

@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "佣金记录",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "x-nodata": "/components/nodata"
+  }
+}

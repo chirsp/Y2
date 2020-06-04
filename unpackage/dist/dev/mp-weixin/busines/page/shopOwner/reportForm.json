@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "报表统计",
+  "usingComponents": {
+    "dishprogress": "/busines/components/progress",
+    "nodata": "/components/nodata"
+  }
+}

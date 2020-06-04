@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "扫码点餐",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "showmodal": "/components/showmodal",
+    "x-footer": "/components/footer"
+  }
+}

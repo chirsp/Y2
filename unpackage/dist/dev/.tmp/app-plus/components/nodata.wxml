@@ -1,0 +1,1 @@
+<view class="toast-info"><image class="nolistimg" src="{{img}}"></image><text class="_c66">{{msg}}</text></view>

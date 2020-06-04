@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "x-footer": "/components/footer",
+    "goods": "/components/goods"
+  }
+}

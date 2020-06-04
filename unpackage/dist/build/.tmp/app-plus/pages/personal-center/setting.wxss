@@ -1,0 +1,49 @@
+page {
+  background: #FFFFFF;
+}
+.my-order-n {
+  padding-top: 30rpx;
+  padding-bottom: 30rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  margin-left: 24rpx;
+  margin-right: 24rpx;
+  border-bottom: 1px solid #EEEEEE;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.border-bottom {
+  border: none;
+}
+.add-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.btn-group {
+  font-size: 24rpx;
+  color: #888888;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.ico-ico image {
+  width: 17rpx;
+  height: 28rpx;
+}
+.ico-ico {
+  margin-left: 14rpx;
+}
+

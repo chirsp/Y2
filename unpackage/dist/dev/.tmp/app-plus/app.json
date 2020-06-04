@@ -1,0 +1,85 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/index/scan",
+    "pages/personal-center/personal-center",
+    "pages/vip/vip",
+    "pages/pay-success2/pay-success2",
+    "pages/pay-success/pay-success",
+    "pages/order/order",
+    "pages/menu/menu",
+    "pages/details/details",
+    "pages/welcome/welcome",
+    "pages/login/login",
+    "pages/login/login1",
+    "pages/login/codelogin",
+    "pages/login/register",
+    "pages/login/bingphone",
+    "pages/personal-center/setting",
+    "pages/personal-center/tableOrder",
+    "pages/login/forgetpw",
+    "pages/balance/balance",
+    "pages/coupon2/coupon2",
+    "pages/my-orders/my-orders",
+    "pages/my-orders/evalOrder",
+    "pages/commission/commission",
+    "pages/commission/workeCom",
+    "pages/my-commission/my-commission",
+    "pages/order-details/order-details",
+    "pages/goodsList/goodsList",
+    "pages/charts/charts",
+    "pages/coupon/coupon",
+    "pages/my-commission/commissionRecode/commissionRecode",
+    "pages/my-commission/withdrawalRecode/withdrawalRecode",
+    "pages/my-commission/withdrawal/withdrawal",
+    "pages/my-commission/cookerOrder",
+    "pages/my-commission/waiterOrder",
+    "pages/clear/clearPage",
+    "pages/personal-center/openStore",
+    "pages/menuHelp/menuHelp",
+    "busines/page/cooker/workBench",
+    "busines/page/commonPage/index",
+    "busines/page/commonPage/table",
+    "busines/page/commonPage/waiterOrder",
+    "busines/page/shopOwner/addpeople",
+    "busines/page/shopOwner/peopleManage",
+    "busines/page/shopOwner/paymentCode",
+    "busines/page/shopOwner/dishManage",
+    "busines/page/shopOwner/editDish",
+    "busines/page/commonPage/commission",
+    "busines/page/commonPage/notice",
+    "busines/page/commonPage/refundFood",
+    "busines/page/shopOwner/reportForm"
+  ],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "",
+    "navigationBarBackgroundColor": "#FEB026",
+    "backgroundColor": "#F8F8F8"
+  },
+  "preloadRule": {
+    "pages/index/index": {
+      "network": "all",
+      "packages": [
+        "__APP__"
+      ]
+    },
+    "busines/page/cooker/workBench": {
+      "network": "all",
+      "packages": [
+        "busines"
+      ]
+    }
+  },
+  "nvueCompiler": "uni-app",
+  "renderer": "auto",
+  "splashscreen": {
+    "alwaysShowBeforeRender": true,
+    "autoclose": false
+  },
+  "appname": "codeOrder",
+  "compilerVersion": "2.5.1",
+  "usingComponents": {
+    "loading": "/components/loading"
+  }
+}

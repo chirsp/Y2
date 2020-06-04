@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "制作订单",
+  "usingComponents": {
+    "x-nodata": "/components/nodata"
+  }
+}

@@ -1,0 +1,30 @@
+.content {
+  background: #ffffff;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  margin: 30rpx;
+}
+.content .bottom {
+  padding: 25rpx 30rpx;
+}
+.content .bottom .left .paylistIcon {
+  width: 44rpx;
+  height: 44rpx;
+  margin-right: 16rpx;
+}
+.content .bottom .enter-icon {
+  width: 17rpx;
+  height: 28rpx;
+}
+.content .code {
+  padding: 36rpx 0;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.content .code .codeImg {
+  width: 320rpx;
+  height: 320rpx;
+  margin: 32rpx;
+  background-color: #EEEEEE;
+}
+

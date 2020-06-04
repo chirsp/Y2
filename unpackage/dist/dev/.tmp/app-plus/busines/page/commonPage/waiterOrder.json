@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "订单配送",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "x-nodata": "/components/nodata",
+    "drag-button": "/components/drag-button"
+  }
+}

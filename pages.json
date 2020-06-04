@@ -1,0 +1,376 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "首页",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+		   "path": "pages/cart/cart"
+		  },
+		{
+			"path": "pages/index/scan",
+			"style": {
+				"navigationBarTitleText": "",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/personal-center/personal-center",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"enablePullDownRefresh":true
+			}
+		},
+		{
+			"path": "pages/vip/vip",
+			"style": {
+				"navigationBarBackgroundColor": "#C4A56E",
+				"navigationBarTitleText": "会员中心"
+			}
+		},
+		{
+			"path": "pages/pay-success2/pay-success2",
+			"style": {
+				"navigationBarTitleText": "充值成功"
+			}
+		},
+		{
+			"path": "pages/pay-success/pay-success",
+			"style": {
+				"navigationBarTitleText": "支付成功"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "提交订单"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "菜单",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/details/details",
+			"style": {
+				"navigationBarTitleText": "详情"
+			}
+		},
+		{
+			"path": "pages/welcome/welcome",
+			"style": {
+				"navigationBarTitleText": "欢迎"
+			}
+		}, {
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/login/login1",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/login/codelogin",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		}, {
+			"path": "pages/login/register",
+			"style": {
+				"navigationBarTitleText": "注册"
+			}
+		}, {
+			"path": "pages/login/bingphone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号"
+			}
+		}, {
+			"path": "pages/personal-center/setting",
+			"style": {
+				"navigationBarTitleText": "设置"
+			}
+		},
+		{
+			"path": "pages/personal-center/agreemenet",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		},
+		{
+			"path": "pages/personal-center/tableOrder",
+			"style": {
+				"navigationBarTitleText": "本桌菜品"
+			}
+		},{
+			"path": "pages/login/forgetpw",
+			"style": {
+				"navigationBarTitleText": ""
+			}
+		}, {
+			"path": "pages/balance/balance",
+			"style": {
+				"navigationBarTitleText": "余额"
+			}
+		}, {
+			"path": "pages/coupon2/coupon2",
+			"style": {}
+		}, {
+			"path": "pages/my-orders/my-orders",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{
+			"path": "pages/my-orders/evalOrder",
+			"style": {
+				"navigationBarTitleText": "订单评价",
+				"enablePullDownRefresh": true
+			}
+		}, 
+		{
+			"path": "pages/commission/commission",
+			"style": {
+				"navigationBarTitleText": "佣金明细"
+			}
+		}, {
+			"path": "pages/commission/workeCom",
+			"style": {
+				"navigationBarTitleText": "我的佣金"
+			}
+		}, {
+			"path": "pages/my-commission/my-commission",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		}, {
+			"path": "pages/order-details/order-details",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/goodsList/goodsList",
+			"style": {
+				"navigationBarTitleText": "搜索菜品"
+			}
+		},
+		{
+			"path": "pages/charts/charts",
+			"style": {}
+		},
+		{
+			"path": "pages/coupon/coupon",
+			"style": {
+				"navigationBarTitleText": "领取优惠券"
+			}
+		}, {
+			"path": "pages/my-commission/commissionRecode/commissionRecode",
+			"style": {
+				"navigationBarTitleText": "佣金记录",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/my-commission/withdrawalRecode/withdrawalRecode",
+			"style": {
+				"navigationBarTitleText": "提现记录",
+				"enablePullDownRefresh":true
+			}
+		}, {
+			"path": "pages/my-commission/withdrawal/withdrawal",
+			"style": {
+				"enablePullDownRefresh":true,
+				"navigationBarTitleText": "申请提现"
+			}
+		}, {
+			"path": "pages/my-commission/cookerOrder",
+			"style": {
+				"navigationBarTitleText": "制作订单"
+			}
+		}, {
+			"path": "pages/my-commission/waiterOrder",
+			"style": {
+				"navigationBarTitleText": "服务员订单"
+			}
+		}, {
+			"path": "pages/clear/clearPage",
+			"style": {
+				"navigationBarTitleText": "餐台状态"
+			}
+		}, {
+			"path": "pages/personal-center/openStore",
+			"style": {
+				"navigationBarTitleText": "上传经营商户相关资料"
+			}
+		},
+	   {
+	   	"path": "pages/menuHelp/menuHelp",
+	   	"style": {
+	   		"navigationBarTitleText": "代带餐菜单",
+	   		"enablePullDownRefresh": true
+	   	}
+	   }
+    ],
+
+	"subPackages": [{
+		"root": "busines",
+		"pages": [{
+				"path": "page/cooker/workBench",
+				"style": {
+					"navigationBarTitleText": "工作台",
+					"enablePullDownRefresh": true
+				}
+			},
+			{
+				"path": "page/commonPage/index",
+				"style": {
+					"navigationBarTitleText": "个人工作台"
+				}
+			},
+			{
+				"path": "page/commonPage/table",
+				"style": {
+					"navigationBarTitleText": "餐桌状态"
+				}
+			},
+			{
+				"path": "page/commonPage/waiterOrder",
+				"style": {
+					"navigationBarTitleText": "订单配送",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/shopOwner/addpeople",
+				"style": {
+					"navigationBarTitleText": "新增人员"
+				}
+			},
+			{
+				"path": "page/shopOwner/peopleManage",
+				"style": {
+					"navigationBarTitleText": "人员管理"
+				}
+			},
+			{
+				"path": "page/shopOwner/paymentCode",
+				"style": {
+					"navigationBarTitleText": "收款码"
+				}
+			},
+			{
+				"path": "page/shopOwner/dishManage",
+				"style": {
+					"navigationBarTitleText": "菜品管理",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/shopOwner/editDish",
+				"style": {
+					"navigationBarTitleText": "菜品编辑",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/commonPage/commission",
+				"style": {
+					"navigationBarTitleText": "佣金管理",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/commonPage/notice",
+				"style": {
+					"navigationBarTitleText": "消息通知",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/commonPage/refundFood",
+				"style": {
+					"navigationBarTitleText": "退菜申请",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path":"page/shopOwner/reportForm",
+				"style":{
+					"navigationBarTitleText": "报表统计"
+				}
+			},
+			{
+				"path": "page/shopOwner/storeCash",
+				"style": {
+					"navigationBarTitleText": "提现管理",
+					"enablePullDownRefresh":true
+				}
+			},  
+			{
+				"path": "page/shopOwner/withdrawal",
+				"style": {
+					"navigationBarTitleText": "申请提现",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/shopOwner/withdrawalRecode",
+				"style": {
+					"navigationBarTitleText": "提现记录",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/shopOwner/shopOrders",
+				"style": {
+					"navigationBarTitleText": "商家订单列表",
+					"enablePullDownRefresh":true
+				}
+			},
+			{
+				"path": "page/shopOwner/shopOrderDetails",
+				"style": {
+					"navigationBarTitleText": "商家订单详情",
+					"enablePullDownRefresh":true
+				}
+			}
+		]
+	}],
+	"preloadRule": {
+		"pages/index/index": {
+			"network": "all",
+			"packages": ["__APP__"]
+		},
+		"busines/page/cooker/workBench": {
+			"network": "all",
+			"packages": ["busines"]
+		}
+	},
+	"setting":{
+		 "checkSiteMap": false
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "",
+		"navigationBarBackgroundColor": "#FEB026",
+		"backgroundColor": "#F8F8F8"
+	},
+	"condition" : { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [
+			{
+				"name": "", //模式名称
+				"path": "pages/index/index", //启动页面，必选
+				"query": "" //启动参数，在页面的onLoad函数里面得到
+			}
+		]
+	}
+}

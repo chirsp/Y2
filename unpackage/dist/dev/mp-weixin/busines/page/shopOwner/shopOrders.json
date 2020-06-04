@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "商家订单列表",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "mx-date-picker": "/components/mx-datepicker/mx-datepicker"
+  }
+}

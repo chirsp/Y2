@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "本桌菜品",
+  "usingComponents": {
+    "nodata": "/components/nodata",
+    "x-footer": "/components/footer",
+    "showmodal": "/components/showmodal",
+    "drag-button": "/components/drag-button"
+  }
+}

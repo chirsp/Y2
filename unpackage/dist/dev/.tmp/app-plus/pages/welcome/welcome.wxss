@@ -1,0 +1,125 @@
+
+.page{
+		position: relative;
+}
+	/* 背景 start */
+.bk-content {
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+}
+.bk-img {
+		position: fixed;
+		width: 100%;
+		height: 100%;
+	/* 	height: 100%; */
+}
+	/* 背景 end */
+	/* 欢迎模块 start */
+.welcome-block {
+		margin-top: 150rpx;
+		display: -webkit-box;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-align: center;
+		-webkit-align-items: center;
+		        align-items: center;
+		-webkit-box-orient: vertical;
+		-webkit-box-direction: normal;
+		-webkit-flex-direction: column;
+		        flex-direction: column;
+		-webkit-box-pack: center;
+		-webkit-justify-content: center;
+		        justify-content: center;
+}
+.welcome-headimg {
+		/* display: flex;
+		flex-direction: row;
+		justify-content: center; */
+}
+.welcome-headimg-ico {
+		width: 172rpx;
+		height: 172rpx;
+		border-radius: 50%;
+}
+.welcome-title {
+		font-weight: bold;
+		font-size: 44rpx;
+/* 		text-align: center; */
+		color: #FFFFFF;
+		margin-top: 25rpx;
+}
+	/* 欢迎模块 end */
+	/* 确认顾客人数 start */
+.order-people {
+		margin: 146rpx 24rpx 0;
+		border-radius: 30rpx;
+		background-color: #F8F8F8;
+		padding: 46rpx 0 50rpx 46rpx;
+	/* 	display: flex;
+		flex-direction: column; */
+}
+.order-title1 {
+		font-size: 44rpx;
+		color: #222222;
+		/* margin-bottom: 37upx;
+		margin-left: 46upx;
+		margin-top: 40upx; */
+}
+.order-title2 {
+		font-size: 30rpx;
+		color: #222222;
+		padding-top: 32rpx;
+}
+.people-input {
+		display: inline-block;
+		width: 134rpx;
+		height: 73rpx;
+		color: #FEB026;
+		font-size: 34rpx;
+		border-radius: 37rpx;
+		text-align: center;
+		line-height: 73rpx;
+		border: 1rpx solid #eeee;
+		margin: 10rpx;
+}
+.checked {
+		background-color: #FEB026;
+		color: #FFFFFF;
+}
+	/* .people-num {
+		white-space: nowrap;
+		padding-right: 60upx;
+		margin-top: 60upx;
+	} */
+.people-num-all{
+	     margin-top: 60rpx;
+}
+.saoma-btn-block {
+	/* 	display: flex;
+		justify-content: center;
+		align-items: center; */
+/* 		margin-top: 40upx; */
+	/* 	width: 576upx; */
+		height: 95rpx;
+		line-height: 95rpx;
+		text-align: center;
+		margin: 40rpx 60rpx 0 14rpx;
+		font-weight: bold;
+		font-size: 32rpx;
+		color: #FFFFFF;
+		background-color: #FC6840;
+		border-radius: 36rpx;
+}
+	/* 确认顾客人数 end */
+.person-input{
+		line-height: 68rpx;
+		border-radius: 10rpx;
+		height: 68rpx;
+		color: #FC6840;
+		font-size: 30rpx;
+		background: #F3F3F3;
+}
+

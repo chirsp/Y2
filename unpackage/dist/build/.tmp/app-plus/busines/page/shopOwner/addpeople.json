@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "新增人员",
+  "usingComponents": {
+    "showmodal": "/components/showmodal"
+  }
+}

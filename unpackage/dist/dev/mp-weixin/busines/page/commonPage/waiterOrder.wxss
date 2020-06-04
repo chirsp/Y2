@@ -1,0 +1,86 @@
+.banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.space {
+  height: 100rpx;
+}
+.mar-bt20 {
+  margin-bottom: 20rpx;
+}
+.bt-b {
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.selectIcon {
+  width: 30rpx;
+  height: 16rpx;
+  margin-left: 18rpx;
+  margin-left: 10rpx;
+}
+.detail {
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.finish {
+  border-radius: 10rpx;
+  padding: 10rpx 20rpx;
+}
+.typebox {
+  margin: 20rpx;
+  background-color: #FFFFFF;
+  padding: 20rpx 20rpx;
+  border-radius: 40rpx;
+  width: 23%;
+}
+.tabtext {
+  background-color: #FFFFFF;
+  padding: 20rpx 0;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.list {
+  background-color: #FFFFFF;
+  padding: 20rpx 30rpx;
+}
+.list .finsh {
+  font-size: 26rpx;
+  padding: 12rpx 0rpx;
+  border-radius: 10rpx;
+  width: 100rpx;
+}
+.title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.width1 {
+  width: 30%;
+}
+.width2 {
+  width: 32%;
+}
+.width3 {
+  width: 24%;
+}
+.align_c {
+  text-align: center;
+}
+.align_r {
+  text-align: right;
+}
+.align_c {
+  text-align: center;
+}
+.align_l {
+  text-align: left;
+}
+.menu {
+  position: fixed;
+  bottom: 3%;
+  width: 182rpx;
+  height: 182rpx;
+  right: 0;
+}
+

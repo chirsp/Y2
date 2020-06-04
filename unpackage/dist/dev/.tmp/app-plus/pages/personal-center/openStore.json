@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "上传经营商户相关资料",
+  "usingComponents": {
+    "submit-info": "/components/openStore/submitInfo",
+    "status-check": "/components/openStore/statusCheck",
+    "updata-info": "/components/openStore/updataInfo"
+  }
+}

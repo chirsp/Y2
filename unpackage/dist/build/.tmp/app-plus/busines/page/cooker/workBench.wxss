@@ -1,0 +1,146 @@
+.noselect {
+  border-bottom: 4rpx solid #FFFFFF;
+}
+._flex_sb {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.btn-icon {
+  width: 44rpx;
+  height: 44rpx;
+}
+.sale-num {
+  width: 50rpx;
+  text-align: center;
+}
+.banner {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.space {
+  height: 100rpx;
+}
+.finish {
+  border-radius: 10rpx;
+  padding: 15rpx 25rpx;
+  margin-left: 50rpx;
+  width: 78rpx;
+  text-align: center;
+}
+.detail {
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.list {
+  background-color: #FFFFFF;
+  padding: 20rpx 30rpx;
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.title {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.width1 {
+  width: 30%;
+}
+.width2 {
+  width: 22%;
+}
+.width3 {
+  width: 25%;
+}
+.width4 {
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.menu {
+  position: fixed;
+  bottom: 3%;
+  width: 182rpx;
+  height: 182rpx;
+  right: 0;
+}
+.submitBox {
+  padding: 30rpx 0;
+  border-top: 1rpx solid #EEEEEE;
+}
+.submitBox .sure {
+  border-right: 1rpx solid #EEEEEE;
+}
+.submitBox view {
+  width: 50%;
+}
+.flex_row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+._f30 {
+  font-size: 30rpx;
+}
+._c22 {
+  color: #222;
+}
+.flex_sb {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+._f34 {
+  font-size: 34rpx;
+}
+._flex-center {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.selectIcon {
+  width: 27rpx;
+  height: 27rpx;
+  margin-left: 10rpx;
+  margin-top: 10rpx;
+}
+.rotate {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -ms-transition: -ms-transform 0.2s;
+}
+.rotate1 {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -ms-transition: -ms-transform 0.2s;
+}
+

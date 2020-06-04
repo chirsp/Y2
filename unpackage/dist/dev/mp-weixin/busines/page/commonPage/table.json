@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "餐桌状态",
+  "usingComponents": {
+    "nodata": "/components/nodata"
+  }
+}

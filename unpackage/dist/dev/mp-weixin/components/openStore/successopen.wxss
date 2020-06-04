@@ -1,0 +1,6 @@
+.success {
+  width: 150rpx;
+  height: 150rpx;
+  margin: 100rpx 0 20rpx 0;
+}
+

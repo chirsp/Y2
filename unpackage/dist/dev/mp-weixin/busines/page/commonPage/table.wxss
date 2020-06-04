@@ -1,0 +1,150 @@
+.mar-left10 {
+  margin-left: 10rpx;
+}
+.scrollBox {
+  max-height: 500rpx;
+}
+.scrollBox .padding-food {
+  padding: 30rpx;
+}
+.scrollBox .space {
+  height: 80rpx;
+}
+.scrollBox .leave {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 80rpx;
+  text-align: center;
+}
+.scrollBox .leave .left {
+  margin: 0 20rpx;
+}
+.scrollBox .leave .right {
+  width: 40%;
+}
+.scrollBox .foodlist {
+  margin-bottom: 20rpx;
+}
+.scrollBox .foodlist .left {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  margin-left: 20rpx;
+  text-align: left;
+}
+.scrollBox .foodlist .right {
+  color: #FC6840;
+}
+.scrollBox .foodlist .right .money {
+  margin-right: 20rpx;
+}
+.modalInfo {
+  padding-bottom: 50rpx;
+}
+.modalInfo .tableNum {
+  width: 120rpx;
+  height: 120rpx;
+  background: #feb026;
+  border-radius: 50%;
+  opacity: 1;
+  font-size: 60rpx;
+}
+.modalInfo .clearbtn {
+  width: 376rpx;
+  opacity: 1;
+  text-align: center;
+  padding: 20rpx 0;
+  border-radius: 10rpx;
+  margin-bottom: 24rpx;
+}
+.modalInfo .edit {
+  margin: 48rpx 0 34rpx 0;
+}
+.mar30 {
+  margin: 0rpx 30rpx 30rpx 30rpx;
+}
+.tablist {
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.tablist .bor-bt {
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.tablist .bor-r {
+  border-right: 1rpx solid #EEEEEE;
+}
+.tablist .box1 {
+  width: 50%;
+}
+.tablist .box {
+  width: 340rpx;
+  opacity: 1;
+  border-radius: 10rpx;
+  margin-bottom: 10rpx;
+}
+.tablist .name {
+  margin: 41rpx 0 20rpx 0;
+}
+.tablist .status {
+  margin-bottom: 25rpx;
+}
+.tip {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin-bottom: 30rpx;
+}
+.tip .tipname {
+  margin-right: 34rpx;
+}
+.tip .tipname .point {
+  width: 22rpx;
+  height: 22rpx;
+  border-radius: 50%;
+  opacity: 1;
+  margin-right: 15rpx;
+}
+.banner {
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  margin: 30rpx 0;
+}
+.banner .left {
+  border-radius: 10rpx 0rpx 0rpx 10rpx;
+}
+.banner .right {
+  border-radius: 0rpx 10rpx 10rpx 0rpx;
+}
+.banner view {
+  width: 200rpx;
+  border: 1rpx solid #feb026;
+  opacity: 1;
+  text-align: center;
+  padding: 16rpx 0;
+}
+.bcol1 {
+  background-color: #6CAA9F;
+}
+.bcol2 {
+  background-color: #FF7654;
+}
+.bcol3 {
+  background-color: #606DCC;
+}
+.btn-icon {
+  width: 44rpx;
+  height: 44rpx;
+}
+.sale-num {
+  width: 50rpx;
+  text-align: center;
+}
+

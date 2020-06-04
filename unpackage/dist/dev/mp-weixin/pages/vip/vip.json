@@ -1,0 +1,7 @@
+{
+  "navigationBarBackgroundColor": "#C4A56E",
+  "navigationBarTitleText": "会员中心",
+  "usingComponents": {
+    "x-footer": "/components/footer"
+  }
+}

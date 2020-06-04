@@ -1,0 +1,128 @@
+.save {
+  opacity: 1;
+  border-radius: 20rpx;
+  width: 80%;
+  margin: 60rpx auto;
+  padding: 20rpx 0;
+  text-align: center;
+  white-space: 22rpx;
+}
+.editbox {
+  margin: 60rpx auto;
+}
+.editbox text {
+  opacity: 1;
+  border-radius: 20rpx;
+  width: 45%;
+  padding: 20rpx 0;
+  text-align: center;
+  white-space: 22rpx;
+}
+.phonebox {
+  max-height: 500rpx;
+}
+.phonelist {
+  padding: 20rpx 0;
+}
+.contentBox {
+  margin: 24rpx;
+  background: #ffffff;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  padding: 60rpx 42rpx;
+}
+.contentBox .info {
+  margin-bottom: 40rpx;
+  padding: 23rpx 0;
+}
+.contentBox .info .pad-20 {
+  padding: 0 20rpx;
+}
+.contentBox .info .pad-50 {
+  padding: 0 50rpx;
+}
+.contentBox .info .sex {
+  opacity: 1;
+  border-radius: 178rpx;
+  height: 72rpx;
+  margin-right: 20rpx;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.contentBox .info .sex .selectIcon {
+  width: 30rpx;
+  height: 16rpx;
+  margin-left: 18rpx;
+}
+.contentBox .info .sex .rotate {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -ms-transition: -ms-transform 0.2s;
+}
+.contentBox .info .sex .rotate1 {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -ms-transition: -ms-transform 0.2s;
+}
+.contentBox .info .bor-e {
+  border: 1rpx solid #EEEEEE;
+}
+.contentBox .info .workStatus {
+  background-color: #FFFFFF;
+  color: #666666;
+  font-size: 28rpx;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  margin-top: 20rpx;
+  padding: 0 30rpx;
+  width: 40%;
+}
+.contentBox .info .workStatus .name {
+  padding: 14rpx 0;
+  text-align: center;
+}
+.contentBox .info .workStatus .border-top {
+  border-top: 1rpx solid #EEEEEE;
+}
+.contentBox .bor-bt {
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.contentBox .bor-t {
+  border-top: 1rpx solid #FFFFFF;
+}
+.contentBox .bg-e {
+  background-color: #EEEEEE;
+}
+.contentBox .info input {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  border: none;
+  font-size: 28rpx;
+}
+

@@ -1,0 +1,147 @@
+.tabaleInput {
+  background: #EEEEEE;
+  border-radius: 10rpx;
+  padding: 10rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.btn {
+  width: 200rpx;
+  opacity: 1;
+  border-radius: 10rpx;
+  color: #FFFFFF;
+  padding: 13rpx 0rpx;
+  text-align: ceneter;
+  margin-bottom: 30rpx;
+}
+.listmenu {
+  background: #ffffff;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  padding-bottom: 30rpx;
+  margin: 0 30rpx;
+}
+.listmenu .item {
+  margin: 40rpx 57rpx 0rpx 57rpx;
+}
+.listmenu .item .icon {
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  width: 46rpx;
+  height: 46rpx;
+  margin-right: 25rpx;
+}
+.menu {
+  border-radius: 20rpx;
+  margin: 30rpx;
+  padding: 46rpx 0 0 0;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  background-color: #FFFFFF;
+}
+.menu .item {
+  width: 33%;
+  margin-bottom: 52rpx;
+}
+.menu .item .icon {
+  width: 80rpx;
+  height: 80rpx;
+  background: #f8f8f8;
+  border-radius: 50%;
+  opacity: 1;
+  margin-bottom: 25rpx;
+}
+.menu .item .icon image {
+  width: 50rpx;
+  height: 50rpx;
+}
+.top {
+  position: relative;
+  height: 260rpx;
+}
+.top .workStatus {
+  position: absolute;
+  width: 200rpx;
+  background-color: #FFFFFF;
+  color: #666666;
+  font-size: 28rpx;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  z-index: 2;
+  margin-top: 10rpx;
+}
+.top .workStatus .name {
+  padding: 14rpx 0;
+  text-align: center;
+}
+.top .workStatus .border-top {
+  border-top: 1rpx solid #EEEEEE;
+}
+.top .workbox {
+  position: relative;
+}
+.top .bg-col {
+  background-color: #FEB026;
+  height: 100rpx;
+  width: 100%;
+}
+.top .topinfo {
+  width: 92%;
+  background: #ffffff;
+  box-shadow: 0rpx 3rpx 6rpx rgba(0, 0, 0, 0.1);
+  opacity: 1;
+  border-radius: 20rpx;
+  margin: 0 30rpx;
+  padding: 28rpx 0;
+  position: absolute;
+  top: 20%;
+}
+.top .topinfo .headicon {
+  width: 100rpx;
+  height: 100rpx;
+  margin-bottom: 18rpx;
+  background-color: #EEEEEE;
+  border-radius: 50%;
+}
+.top .topinfo .selectIcon {
+  width: 30rpx;
+  height: 16rpx;
+  margin-left: 18rpx;
+}
+.top .rotate {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+  -moz-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -ms-transition: -ms-transform 0.2s;
+}
+.top .rotate1 {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+  transform: rotate(0deg);
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(deg);
+  -ms-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
+  -moz-transition: -moz-transform 0.2s;
+  -o-transition: -o-transform 0.2s;
+  -ms-transition: -ms-transform 0.2s;
+}
+

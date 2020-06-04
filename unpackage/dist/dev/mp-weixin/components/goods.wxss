@@ -1,0 +1,163 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主题色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.labels {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  height: 10%;
+}
+.labels .label_flag {
+  padding-top: 3rpx;
+}
+.labels .label_new {
+  text-align: center;
+  background: #f8f8f8;
+  color: #000;
+  width: 76rpx;
+  height: 30rpx;
+  border-radius: 9rpx;
+  margin: 6rpx;
+  font-size: 20rpx;
+  padding-top: 0rpx;
+  line-height: 30rpx;
+  margin-top: 10rpx;
+}
+.nofood {
+  background-color: #222222;
+  opacity: 0.5;
+  position: absolute;
+  width: 194rpx;
+  height: 194rpx;
+  border-radius: 20rpx;
+}
+.plusNum {
+  margin-left: 10rpx;
+}
+.opcity {
+  opacity: 0.7;
+  background-color: #EEEEEE;
+  border-radius: 10rpx;
+}
+._goods .item-r {
+  margin-bottom: 20rpx;
+  padding: 20rpx 0;
+}
+._goods .item-r .media {
+  width: 194rpx;
+  height: 194rpx;
+  border-radius: 20rpx;
+  margin-right: 20rpx;
+  background: #eee;
+  position: relative;
+}
+._goods .item-r .item-content {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  height: 194rpx;
+  /* 口味选择 */
+}
+._goods .item-r .item-content .name {
+  color: #222;
+  font-size: 32rpx;
+  margin-bottom: 15rpx;
+  line-height: 40rpx;
+  max-height: 80rpx;
+  overflow: hidden;
+}
+._goods .item-r .item-content .nums {
+  color: #888888;
+  font-size: 24rpx;
+  padding-bottom: 30rpx;
+}
+._goods .item-r .item-content .price {
+  font-size: 30rpx;
+  color: #FF1801;
+  line-height: 34rpx;
+}
+._goods .item-r .item-content .oldPrice {
+  font-size: 22rpx;
+  text-decoration: line-through;
+  color: #888888;
+  line-height: 34rpx;
+  padding-left: 12rpx;
+}
+._goods .item-r .item-content .btn-icon {
+  width: 50rpx;
+  height: 50rpx;
+}
+._goods .item-r .item-content .sale-num {
+  width: 50rpx;
+  text-align: center;
+}
+._goods .item-r .item-content .taste {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  height: 10%;
+}
+._goods .item-r .item-content .taste .taste_tabel {
+  width: 68rpx;
+  height: 40rpx;
+  border: 1px solid #AAAAAA;
+  text-align: center;
+  background: #f1f1f1;
+  color: #333;
+}
+._goods .item-r .item-content .taste .active {
+  background: rgba(254, 176, 38, 0.7);
+  color: #333;
+}
+._goods .item-r .item-content .taste .taste_1 {
+  width: 80rpx;
+  height: 30rpx;
+  border-radius: 22rpx;
+  margin: 6rpx;
+  font-size: 20rpx;
+  padding-top: 0rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+._goods .item-r .item-content .taste .view1 {
+  padding-top: 3rpx;
+}
+

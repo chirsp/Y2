@@ -1,0 +1,55 @@
+.flex1 {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.scrollBox {
+  max-height: 500rpx;
+}
+.cancel {
+  padding: 30rpx 0;
+  font-size: 30rpx;
+  border-top: 1rpx solid #EEEEEE;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1);
+}
+.content {
+  margin: 30rpx 0;
+  background-color: #FFFFFF;
+  padding: 0 30rpx;
+}
+.content .bor-bt {
+  border-bottom: 1rpx solid #EEEEEE;
+}
+.content .info {
+  padding: 30rpx 0;
+}
+.content .left {
+  width: 21%;
+  margin-right: 30rpx;
+  font-weight: bold;
+}
+.content .left text {
+  text-align-last: justify;
+}
+.content .infoInput {
+  border: none;
+  font-size: 28rpx;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+}
+.content .agreement {
+  margin: 20rpx 0;
+}
+.content .agreement .tip {
+  margin-left: 20rpx;
+}
+.content .agreement .cblue {
+  color: #014C8C;
+}
+.sure {
+  padding: 26rpx 0;
+  border-radius: 6rpx;
+  margin: 40rpx 30rpx;
+}
+

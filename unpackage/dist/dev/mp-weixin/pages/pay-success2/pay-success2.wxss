@@ -1,0 +1,114 @@
+
+.x-mask{
+	background: rgba(0,0,0,0.3);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: 970;
+}
+.content{
+	position: fixed;
+	z-index: 980;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+}
+.ok-block {
+	width: 538rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	background: #fff;
+	border-radius: 30rpx;
+	padding-bottom: 84rpx;
+}
+.bk {
+	position: relative;
+}
+.bk-img {
+	width: 538rpx;
+	height: 313rpx;
+	background-color: #FFFFFF;
+	border-radius: 30rpx;
+}
+.ok-block-b {
+	height: 449rpx;
+	background-color: #FFFFFF;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	border-radius: 30rpx;
+}
+.bk icon {
+	position: absolute;
+	right: -52rpx;
+	top: -60rpx;
+}
+.pay-ok-img {
+	width: 92rpx;
+	height: 92rpx;
+	margin-top: 89rpx;
+}
+.pay-ok-tips {
+	color: #FC6840;
+	font-size: 43rpx;
+	font-weight: 400;
+	margin-top: 30rpx;
+}
+.code{
+	font-size: 30rpx;
+	color: #222222;
+	margin-top: 70rpx;
+}
+.btn {
+	width: 452rpx;
+	font-size: 32rpx;
+	text-align: center;
+	border-radius: 34rpx;
+}
+.btn1 {
+	background-color: #FF861B;
+	color: #FFFFFF;
+	margin-top: 60rpx;
+	line-height: 80rpx;
+	height: 80rpx;
+}
+.btn2 {
+	color: #FC6840;
+	background-color: #FFFFFF;
+	margin-top: 30rpx;
+	border: 1px solid #FFB527;
+	line-height: 78rpx;
+	height: 78rpx;
+}
+

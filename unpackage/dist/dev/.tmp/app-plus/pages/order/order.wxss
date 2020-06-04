@@ -1,0 +1,391 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 主题色 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.canwei-words {
+  padding: 20rpx;
+  font-size: 28rpx;
+}
+.taketype {
+  background-color: #FEB026;
+  padding: 0 25rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.taketype .ordertype {
+    border-radius: 10rpx 10rpx 0rpx 0rpx;
+    width: 336rpx;
+    text-align: center;
+    padding: 16rpx 0;
+}
+.taketype .takeselect {
+    background-color: #FFFFFF;
+    color: #FEB026;
+}
+.taketype .untakeselect {
+    background-color: #EBEBEB;
+    color: #313131;
+}
+.person-input {
+  border: 2rpx solid #FEB026;
+  border-radius: 50rpx;
+  line-height: 80rpx;
+  height: 80rpx;
+  text-align: center;
+}
+.page-block {
+  background: #fff;
+}
+/* 餐桌号 start */
+.table-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  padding: 43rpx 43rpx 0 38rpx;
+}
+.table-one {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.underline {
+  border-bottom: 1px solid #EEEEEE;
+}
+.table-one-a {
+  color: #222222;
+  font-size: 30rpx;
+}
+.table-one-b {
+  font-size: 24rpx;
+  color: #888888;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+          flex: 1;
+  padding-left: 20rpx;
+  text-align: right;
+}
+.padding-b {
+  padding-bottom: 25rpx;
+}
+.margin-t {
+  margin-top: 31rpx;
+}
+/* 餐桌号 end */
+/* 商品信息 start */
+.goods-msg {
+  /* 	height: 408upx; */
+  margin-top: 30rpx;
+  padding: 30rpx 39rpx 0 39rpx;
+}
+.goods-num {
+  color: #222222;
+  font-size: 30rpx;
+  padding-bottom: 30rpx;
+  border-bottom: 1px solid #EEEEEE;
+}
+.goods-img {
+  width: 96rpx;
+  height: 96rpx;
+  border-radius: 10rpx;
+}
+.order-details {
+  width: 100%;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: space-between;
+  -webkit-align-items: space-between;
+          align-items: space-between;
+}
+.details {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  color: #222222;
+  margin: 0 0rpx 8rpx 17rpx;
+}
+.order {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin: 19rpx 0 32rpx 0;
+}
+.title1 {
+  font-size: 24rpx;
+  font-weight: bold;
+}
+.price {
+  font-size: 26rpx;
+}
+.x1 {
+  font-size: 22rpx;
+  color: #888888;
+  font-weight: bold;
+  margin-left: 17rpx;
+}
+.quan {
+  width: 29rpx;
+  height: 29rpx;
+}
+.more {
+  width: 28rpx;
+  height: 17rpx;
+  -webkit-transform: rotate(-90deg);
+          transform: rotate(-90deg);
+}
+.quan-words {
+  font-size: 28rpx;
+  margin-left: 11rpx;
+}
+.quan-price {
+  font-size: 26rpx;
+  color: #444444;
+  margin-right: 15rpx;
+  max-width: 300rpx;
+  max-height: 40rpx;
+  overflow: hidden;
+}
+.quan-a {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.quan-img {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.quan-b {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.quan-block {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom: 1px solid #EEEEEE;
+  padding-bottom: 17rpx;
+}
+.quan-bottom {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  font-size: 24rpx;
+  padding: 30rpx 0rpx 30rpx 0;
+}
+.xiaoji {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+}
+.total-price {
+  font-size: 32rpx;
+  color: #FC5F34;
+}
+.youhui {
+  color: #666666;
+  margin-right: 17rpx;
+}
+.xiaoji-a {
+  color: #222222;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+/* 商品信息 end */
+/* 支付方式 start */
+.pay {
+  height: 82rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin-top: 30rpx;
+  padding: 28rpx 45rpx 25rpx 42rpx;
+}
+.pay-way {
+  font-size: 28rpx;
+  color: #222222;
+  line-height: 28rpx;
+}
+/* 支付方式 end */
+/* 提交支付 start */
+.pay-put-order {
+  position: fixed;
+  bottom: 98rpx;
+  width: 100%;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  padding: 20rpx;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.pay-put {
+  height: 98rpx;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #343333;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  color: #FFFFFF;
+}
+.btn-pay {
+  width: 234rpx;
+  background-color: #FEB026;
+  text-align: center;
+  line-height: 98rpx;
+  font-size: 32rpx;
+  color: #fff;
+  border-radius: 0;
+}
+button::after {
+  border: none;
+}
+.word1 {
+  font-size: 24rpx;
+}
+.pay-price {
+  font-size: 32rpx;
+  margin-right: 39rpx;
+}
+.word1-1 {
+  margin-right: 30rpx;
+}
+/* 提交支付 end */
+/* 门店/外带 start */
+.type1 image, .type2 image {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 18rpx;
+}
+.gou-img {
+  width: 32rpx;
+  height: 32rpx;
+  margin-right: 10rpx;
+}
+.type {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  font-size: 28rpx;
+  background-color: #FFFFFF;
+  height: 80rpx;
+  margin-top: 30rpx;
+}
+.way1, .way2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  width: 50%;
+}
+/* 门店/外带 end */
+.order-no {
+  line-height: 80rpx;
+  padding: 0 30rpx;
+  height: 80rpx;
+  background: #fff;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  border-top: 1rpx solid #eee;
+}
+

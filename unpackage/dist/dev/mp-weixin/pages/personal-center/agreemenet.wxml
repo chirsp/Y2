@@ -1,0 +1,1 @@
+<view class="box"><rich-text nodes="{{info}}"></rich-text></view>

@@ -1,0 +1,9 @@
+{
+  "navigationBarTitleText": "代带餐",
+  "enablePullDownRefresh": true,
+  "usingComponents": {
+    "x-footer": "/components/footer",
+    "goods": "/components/goods",
+    "evaluate": "/components/evaluate"
+  }
+}

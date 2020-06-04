@@ -1,0 +1,367 @@
+.intrbox {
+  margin: 30rpx 0;
+  padding: 40rpx;
+  background-color: #FFFFFF;
+}
+.intr1 {
+  margin-bottom: 20rpx;
+}
+.intr2 {
+  margin-bottom: 10rpx;
+}
+.banner_tip {
+  position: absolute;
+  margin-top: 400rpx;
+  width: 100%;
+  z-index: 3;
+}
+.banner_tip .selectType {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+}
+.banner_tip .select-bg {
+  background-color: #FEB026;
+  color: #FFFFFF;
+}
+.banner_tip .Type-text {
+  background: #FFFFFF;
+  opacity: 0.5;
+  padding: 5rpx 15rpx;
+  text-align: center;
+  font-size: 22rpx;
+  color: #222;
+  border-radius: 40rpx;
+  margin-right: 15rpx;
+  z-index: 10;
+}
+.banner_tip .picNum {
+  float: right;
+  margin-right: 30rpx;
+}
+.goods-img {
+  position: relative;
+}
+/* 菜品图片 start */
+.goods-wapper,
+.goods-wapper-img {
+  width: 100%;
+  height: 526rpx;
+}
+/* 菜品图片 end */
+/* 菜品信息 start */
+.goods-details {
+  /* 		height: 231upx; */
+  padding: 35rpx 33rpx 30rpx 31rpx;
+  background: #fff;
+}
+.goods-name {
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #333333;
+}
+.goods-sale {
+  font-size: 22rpx;
+  color: #888888;
+  font-weight: bold;
+  margin-top: 25rpx;
+  margin-bottom: 41rpx;
+}
+.goods-group {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+}
+.goods-price {
+  font-size: 48rpx;
+  color: #FEB026;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+          align-items: baseline;
+}
+.price-through {
+  font-size: 29rpx;
+  color: #888888;
+  text-decoration: line-through;
+  margin-left: 21rpx;
+  font-weight: 500;
+}
+.opacity {
+  opacity: 0.5;
+}
+.btn-add {
+  width: 156rpx;
+  height: 49rpx;
+  border-radius: 20rpx;
+  background-color: #FEB026;
+  font-size: 22rpx;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  line-height: 49rpx;
+}
+.price {
+  margin-left: -10rpx;
+}
+/* 菜品信息 end */
+/* 小tips start */
+.tips-block {
+  width: 100%;
+  height: 78rpx;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  margin: 30rpx 0 24rpx 0;
+  -webkit-justify-content: space-around;
+          justify-content: space-around;
+  background: #fff;
+}
+.tips {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+}
+.tips-ico {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+}
+.tips-ico1 {
+  width: 20rpx;
+  height: 20rpx;
+}
+.tip-words {
+  font-size: 22rpx;
+  color: #888888;
+  margin-left: 6rpx;
+  letter-spacing: 4rpx;
+}
+/* 小tips end */
+/* 同店搭配 start */
+.dapei {
+  padding: 30rpx 31rpx;
+  background: #FAFAFA;
+}
+.dapei-title {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: baseline;
+  -webkit-align-items: baseline;
+          align-items: baseline;
+}
+.dapei-title1 {
+  font-size: 32rpx;
+  color: #333333;
+  font-weight: bold;
+}
+.dapei-title2 {
+  font-size: 24rpx;
+  font-weight: bold;
+  color: #888888;
+  margin-left: 22rpx;
+}
+.dapei-goods {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+.dapei-goods-wapper {
+  width: 217rpx;
+  height: 243rpx;
+  margin-top: 32rpx;
+}
+.dapei-img {
+  width: 100%;
+  height: 147rpx;
+  border-radius: 10rpx;
+}
+.dapei-msg {
+  border-radius: 0 0 10rpx 10rpx;
+  padding: 0 13rpx 0 15rpx;
+}
+.dapei-name {
+  font-size: 22rpx;
+  color: #333333;
+  font-weight: bold;
+  line-height: 40rpx;
+  max-height: 40rpx;
+  overflow: hidden;
+}
+.dapei-price {
+  color: #FEB026;
+  font-size: 26rpx;
+  font-weight: bold;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  margin: 11rpx 0 24rpx;
+}
+.btn-num-add {
+  width: 38rpx;
+  height: 38rpx;
+}
+.white-block {
+  height: 150rpx;
+}
+/* 同店搭配 end */
+/* 选好了 start */
+.total-price-block {
+  width: 100%;
+  height: 94rpx;
+  position: fixed;
+  bottom: 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  /* justify-content: flex-end; */
+  background: #fff;
+}
+.ok {
+  width: 198rpx;
+  background-color: #FEB026;
+  font-size: 36rpx;
+  color: #FFFFFF;
+  font-weight: bold;
+  text-align: center;
+  line-height: 94rpx;
+}
+.total-img {
+  width: 67rpx;
+  height: 63rpx;
+  margin-top: 15rpx;
+  margin-left: 19rpx;
+}
+.total-bk {
+  width: 108rpx;
+  height: 108rpx;
+  background-color: #FEB026;
+  border-radius: 50%;
+  z-index: 2000;
+  position: absolute;
+  bottom: 8rpx;
+  left: 35rpx;
+}
+.total-price {
+  color: #FEB026;
+  font-size: 34rpx;
+  /* 	font-weight: bold; */
+  margin: 23rpx 253rpx 35rpx 0;
+}
+.goods-num {
+  position: absolute;
+  top: 0;
+  left: 82rpx;
+  width: 32rpx;
+  height: 32rpx;
+  font-size: 22rpx;
+  color: #FFFFFF;
+  text-align: center;
+  line-height: 32rpx;
+  background-color: #FEB026;
+  border-radius: 50%;
+  border: 1px solid #FFFFFF;
+}
+.tips-words {
+  width: 100%;
+  height: 46rpx;
+  font-size: 20rpx;
+  color: #FEB026;
+  text-align: center;
+  line-height: 46rpx;
+  background-color: #FFD28B;
+  position: absolute;
+  bottom: 94rpx;
+}
+/* 选好了 end */
+/* 口味选择 */
+.taste {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: wrap;
+          flex-wrap: wrap;
+  width: 100%;
+  height: 10%;
+  margin-top: 25rpx;
+  margin: 15rpx;
+}
+.taste .taste_tabel {
+  width: 68rpx;
+  height: 40rpx;
+  border: 1px solid #AAAAAA;
+  text-align: center;
+  background: #f1f1f1;
+  color: #333;
+}
+.taste .active {
+  background: rgba(254, 176, 38, 0.7);
+  color: #333;
+}
+.taste .taste_1 {
+  width: 80rpx;
+  height: 30rpx;
+  border-radius: 22rpx;
+  margin: 6rpx;
+  font-size: 20rpx;
+  padding-top: 0rpx;
+  line-height: 30rpx;
+  text-align: center;
+}
+.taste .view1 {
+  padding-top: 3rpx;
+}
+
