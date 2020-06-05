@@ -271,9 +271,11 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
 
     // 获取用户信息
     getUserInfo: function getUserInfo() {var _this2 = this;
+      console.log(this.$store.state.shopId);
       this.$api.ajax('smdc/user/userinfo', {
         shop_id: this.$store.state.shopId },
       function (res) {
+        console.log(res);
         setTimeout(function () {
           uni.stopPullDownRefresh();
         }, 1500);
@@ -293,6 +295,7 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
         };
         _this2.userInfo = res.data;
         _this2.worker = res.data.type;
+        console.log(res);
         _this2.userWorker = res.data.worker;
         _this2.work_status = res.data.worker.work_status;
         _this2._setUserInfo(res.data);

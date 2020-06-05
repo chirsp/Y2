@@ -283,6 +283,7 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
     },
     //提交按钮
     showTopTips: function showTopTips() {
+      console.log(1111);
       var _this = this;
       if (_this.mobile == '') {
         _this.$api.toast('请输入手机号码');
@@ -301,6 +302,7 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
         shop_id: _this.$store.state.shopId,
         code: _this.code },
       function (ret) {
+        console.log(ret);
         var info = {
           uid: ret.data.id,
           userInfo: ret.data };
@@ -310,13 +312,30 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
         _this.$api.setStorage("kejia_order_openId", ret.data.openid);
         _this.$api.setStorage("kejia_order_userInfo", ret.data);
         _this.$api.setStorage("kejia_order_token", ret.data.token);
-        if (ret.data.type == 0 || ret.data.openid == '' || ret.data.openid) {
-          _this.handleThirdLoginApp(ret);
+        console.log(_this.type);
+        if (ret.data.openid == '' || ret.data.openid == undefined) {
+          console.log(333);
+          uni.login({
+            provider: 'weixin',
+            success: function success(loginRes) {
+
+              // console.log("App微信获取用户信息成功", loginRes);
+              var result = Object.assign(ret, loginRes);
+              console.log(result);
+              _this.getApploginData(result);
+
+            },
+            fail: function fail(res) {
+              console.log("App微信获取用户信息失败", res);
+            } });
+
+        } else {
+          uni.reLaunch({
+            url: "/pages/index/index" });
+
         }
         // uni.navigateBack();
-        // uni.reLaunch({
-        // 		url:"/pages/index/index"
-        // 	})	
+
       }, "POST");
 
     },
@@ -335,31 +354,6 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
       // })
       console.log(11111);
       var that = this;
-      uni.getProvider({
-        service: 'oauth',
-        success: function success(res) {
-          console.log(555);
-          //支持微信、qq和微博等
-          if (~res.provider.indexOf('weixin')) {
-            uni.login({
-              provider: 'weixin',
-              success: function success(loginRes) {
-
-                // console.log("App微信获取用户信息成功", loginRes);
-                if (typeof resu == 'object') {
-                  var result = Object.assign(resu, loginRes);
-                  console.log(result);
-                  that.getApploginData(result);
-                } else {
-                  that.getApploginData(loginRes);
-                }
-              },
-              fail: function fail(res) {
-                console.log("App微信获取用户信息失败", res);
-              } });
-
-          }
-        } });
 
     },
 

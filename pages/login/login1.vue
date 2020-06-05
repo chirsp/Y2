@@ -258,7 +258,7 @@
 					_this.$api.setStorage("kejia_order_openId", ret.data.openid);
 					_this.$api.setStorage("kejia_order_userInfo", ret.data);
 					_this.$api.setStorage("kejia_order_token", ret.data.token);
-					if(_this.type=='app' && (ret.data.openid=='' || ret.data.openid==undefined)){
+					if((ret.data.openid=='' || ret.data.openid==undefined)){
 						uni.login({
 							provider: 'weixin',
 							success: function(loginRes) {
@@ -274,7 +274,12 @@
 								console.log("App微信获取用户信息失败", res);
 							}
 						})
+					}else{
+						uni.reLaunch({
+							url:'../index/index'
+						})
 					}
+					
 				}, "POST");
 
 

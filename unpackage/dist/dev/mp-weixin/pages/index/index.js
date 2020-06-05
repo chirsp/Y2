@@ -411,9 +411,10 @@ var _default =
         action: 0 },
 
       function (ret) {
+        console.log(ret);
         // _this.openVoice();
         _this.data = ret.data;
-        _this.shop = ret.data.shop;
+        _this.shop = ret.data.shop == [] ? [a] : ret.data.shop;
         _this.logo = ret.data.shop.logo[0];
         _this.isLoad = true;
         setTimeout(function () {

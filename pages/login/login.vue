@@ -126,7 +126,7 @@
 								   })
 								}
 							    // 强制登录后绑定手机号
-								if(ret.code==2){
+								if(ret.code==0){
 									uni.redirectTo({
 										url: '/pages/login/bingphone?wxinfo=' + JSON.stringify(ret.data)
 									})

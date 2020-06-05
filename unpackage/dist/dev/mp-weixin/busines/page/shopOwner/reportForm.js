@@ -279,6 +279,7 @@ var _default = {
 
     // 时间选择
     timeSelect: function timeSelect(index, year, m) {
+      console.log("index:", index, "year:", year, m);
       var that = this;
       var day = that.getLastDay(year, m);
       that.TabCur = index;
@@ -304,6 +305,7 @@ var _default = {
 
     // 选择维度
     selectType: function selectType(index) {
+      console.log(index);
       this.dIndex = index;
       if (this.dIndex == 0) {
         this.today_order = 0;
@@ -397,6 +399,7 @@ var _default = {
         start_time: start / 1000,
         end_time: end / 1000 },
       function (res) {
+        console.log("res:", res);
         var LineA = { categories: [], series: [] };
         //这里我后台返回的是数组，所以用等于，如果您后台返回的是单条数据，需要push进去
         // 总的人员数和营业额
@@ -416,7 +419,7 @@ var _default = {
 
 
           LineA.series = series;
-
+          console.log(LineA);
           //第二根线为虚线的设置
           _self.showLineA("canvasLineA", LineA);
         }

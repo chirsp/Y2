@@ -385,13 +385,33 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
           userInfo: ret.data };
 
         _this.login(info);
+        console.log(ret);
         _this.$api.setStorage("kejia_order_uid", ret.data.id);
         _this.$api.setStorage("kejia_order_openId", ret.data.openid);
         _this.$api.setStorage("kejia_order_userInfo", ret.data);
         _this.$api.setStorage("kejia_order_token", ret.data.token);
-        if (_this.type == 'app' || ret.data.openid == '' || ret.data.openid) {
-          _this.handleThirdLoginApp(ret);
+        if (ret.data.openid == '' || ret.data.openid == undefined) {
+          uni.login({
+            provider: 'weixin',
+            success: function success(loginRes) {
+              // console.log("App微信获取用户信息成功", loginRes);
+
+              var result = Object.assign(ret, loginRes);
+              console.log(result);
+              _this.getApploginData(result);
+
+
+            },
+            fail: function fail(res) {
+              console.log("App微信获取用户信息失败", res);
+            } });
+
+        } else {
+          uni.reLaunch({
+            url: '../index/index' });
+
         }
+
       }, "POST");
 
 
@@ -534,18 +554,21 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
     // 通过接口换取微信登录信息
     getApploginData: function getApploginData(data) {
       // let da=data;
-      var mobile;
+      var mobile = "";
       if (typeof data == 'object') {
-        if (data.hasOwnProperty(data)) {
+        if ("data" in data) {
+          console.log(111);
           mobile = data.data.mobile;
         } else {
+          console.log(2222);
           mobile = "";
         }
 
       } else {
+        console.log(333);
         mobile = "";
       }
-
+      console.log(mobile);
       var that = this;
       uni.request({
         url: "https://api.weixin.qq.com/sns/userinfo?access_token=" + data.authResult.access_token + "&openid=" + data.authResult.openid,
@@ -565,7 +588,7 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
             console.log(ret);
             uni.hideLoading();
             //判断是否返回了token，如果没有，就说明没有绑定账号，跳转到绑定页面
-            if (ret.code == 2) {
+            if (ret.code == 2 && mobile == '') {
               uni.showToast({
                 title: "登录成功，前往绑定手机号" });
 
@@ -581,8 +604,6 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
               that.$api.setStorage("kejia_order_uid", ret.data.id);
               that.$api.setStorage("kejia_order_openId", ret.data.openid);
               that.$api.setStorage("kejia_order_userInfo", ret.data);
-
-
               that.$api.setStorage("kejia_order_token", ret.token);
               // uni.navigateBack();
               uni.reLaunch({

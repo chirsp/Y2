@@ -18,7 +18,7 @@
 				<image :src="userInfo.avatarurl && userInfo.avatarurl != '0'  ? userInfo.avatarurl : '/static/head.png'" mode=""></image>
 			</view>
 			<view class="username">
-				{{userInfo.username ? userInfo.nickname:'客官'}}
+				{{userInfo.username ? userInfo.username : userInfo.nickname ? userInfo.nickname:'客官'}}
 			</view>
 			<view class="">
 				<block>

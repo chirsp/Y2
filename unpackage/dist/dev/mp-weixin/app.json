@@ -92,6 +92,5 @@
   },
   "usingComponents": {
     "loading": "/components/loading"
-  },
-  "sitemapLocation": "sitemap15.json"
+  }
 }

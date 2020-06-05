@@ -263,7 +263,7 @@ var _vuex = __webpack_require__(/*! vuex */ 8);function ownKeys(object, enumerab
 
               }
               // 强制登录后绑定手机号
-              if (ret.code == 2) {
+              if (ret.code == 0) {
                 uni.redirectTo({
                   url: '/pages/login/bingphone?wxinfo=' + JSON.stringify(ret.data) });
 

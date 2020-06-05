@@ -197,11 +197,13 @@ export default {
 					console.log("App微信获取用户信息失败", res);
 				}
 			})
+		 }else{
+			 uni.reLaunch({
+			 		url:"/pages/index/index"
+			 	})	
 		 }
 		 // uni.navigateBack();
-		// uni.reLaunch({
-		// 		url:"/pages/index/index"
-		// 	})	
+		
 	 },"POST");
 	  
     },

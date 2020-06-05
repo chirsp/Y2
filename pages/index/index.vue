@@ -26,8 +26,8 @@
 				<!-- 背景图片 start -->
 				<view>
 					<swiper :indicator-dots="true" :duration="500" class="bk-img">
-						<block v-for="(item, index) in shop.banner_ids" :key="index" v-if="shop.banner_ids.length">
-							<swiper-item><image :src="item ? item : '/static/noImg.png'" mode="aspectFill" class="bk-img"></image></swiper-item>
+						<block v-for="(item, index) in shop.banner_ids" :key="index">
+							<swiper-item><image :src="item ? '/static/noImg.png':item " mode="aspectFill" class="bk-img"></image></swiper-item>
 						</block>
 					</swiper>
 				</view>
@@ -71,15 +71,15 @@
 							<block v-if="menu.type == 'advert'">
 								<view class="list-title">为您优选</view>
 								<view class="list-middle">
-									<view class="list-middle-1" @click="toLink(menu.info[0].link,menu.info[0].type)">
-										<image :src="menu.info[0].cover ? menu.info[0].cover[0] : '/static/noImg.png'" mode="aspectFill" class="list-img1"></image>
-										<view class="title1" v-if="menu.info[0].title">{{ menu.info[0].title }}</view>
+									<view class="list-middle-1">
+										<image  @click="toLink(menu.info[0].link,menu.info[0].type)" :src="menu.info.length>0? menu.info[0].cover[0] : '/static/noImg.png'" mode="aspectFill" class="list-img1"></image>
+										<view class="title1" >{{ menu.info.length>0 ? menu.info[0].title : '暂无查看' }}</view>
 									</view>
 									<view class="list-middle-2">
-										<view class="title2" v-if="menu.info[1].title">{{ menu.info[1].title }}</view>
-										<view class="title3" v-if="menu.info[2].title">{{ menu.info[2].title }}</view>
-										<image @click="toLink(menu.info[1].link,menu.info[1].type)" :src="menu.info[1].cover ? menu.info[1].cover[0] : '/static/noImg.png'" mode="aspectFill" class="list-img2"></image>
-										<image @click="toLink(menu.info[2].link,menu.info[2].type)" :src="menu.info[2].cover ? menu.info[2].cover[0] : '/static/noImg.png'" mode="aspectFill" class="list-img3"></image>
+										<view class="title2" >{{menu.info.length>1 ? menu.info[1].title:'暂无查看'}}</view>
+										<view class="title3" >{{menu.info.length>2 ? menu.info[1].title:'暂无查看'}}</view>
+										<image @click="toLink(menu.info[1].link,menu.info[1].type)" :src="menu.info.length>1 ? menu.info[1].cover[0] : '/static/noImg.png'" mode="aspectFill" class="list-img2"></image>
+										<image @click="toLink(menu.info[2].link,menu.info[2].type)" :src="menu.info.length>2 ? menu.info[2].cover[0] : '/static/noImg.png'" mode="aspectFill" class="list-img3"></image>
 									</view>
 								</view>
 							</block>
@@ -270,9 +270,10 @@ export default {
 					action: 0
 				},
 				function(ret) {
+					console.log(ret)
 					// _this.openVoice();
 					_this.data = ret.data;
-					_this.shop = ret.data.shop
+					_this.shop = ret.data.shop==[]?[a]: ret.data.shop
 					_this.logo = ret.data.shop.logo[0]
 					_this.isLoad = true
 					setTimeout(function(){

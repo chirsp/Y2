@@ -147,6 +147,7 @@
 			
 			// 时间选择
 			timeSelect(index,year,m){
+				console.log("index:",index,"year:",year,m)
 				let that = this
 				let day =  that.getLastDay(year,m)
 				that.TabCur =  index
@@ -172,6 +173,7 @@
 			
 			// 选择维度
 			selectType(index){
+				console.log(index)
 				this.dIndex = index
 				if(this.dIndex==0){
 					this.today_order = 0
@@ -265,6 +267,7 @@
 				start_time:start / 1000,
 				end_time:end / 1000, 
 			  }, res => {
+				  console.log("res:",res)
 				       let LineA={categories:[],series:[]};
 				  		//这里我后台返回的是数组，所以用等于，如果您后台返回的是单条数据，需要push进去
 						// 总的人员数和营业额
@@ -284,7 +287,7 @@
 							},
 							]
 							LineA.series = series;
-							
+							console.log(LineA)
 							//第二根线为虚线的设置
 							_self.showLineA("canvasLineA",LineA);
 						}
@@ -300,7 +303,7 @@
 	    		$this:_self,
 	    		canvasId: canvasId,
 	    		type: 'line',
-	                    	colors:['#facc14', '#90ed7d', '#8543e0', '#90ed7d'],
+	            colors:['#facc14', '#90ed7d', '#8543e0', '#90ed7d'],
 	    		fontSize:11,
 	    		padding:[15,15,0,15],
 	    		legend:{

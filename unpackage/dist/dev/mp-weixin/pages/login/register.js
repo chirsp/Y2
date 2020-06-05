@@ -308,6 +308,7 @@ e) {
       }
       var _this = this;
       _this.$api.ajax('smdc/user/register', data, function (res) {
+        console.log(res);
         _this.$api.toast("注册成功");
         _this.$api.openWin('/pages/login/login1');
       }, "POST");

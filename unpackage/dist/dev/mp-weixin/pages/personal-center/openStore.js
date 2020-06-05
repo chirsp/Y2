@@ -215,6 +215,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       this.$api.ajax('smdc/join_us/detail', {
         shop_id: that.$store.state.shopId },
       function (res) {
+        console.log(res);
         that.info = res.data;
         if (res.data) {
           that.id = that.info.id;
@@ -234,9 +235,10 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
       this.$api.ajax('smdc/Merchant/index', {
         shop_id: that.$store.state.shopId },
       function (res) {
+        console.log(res);
         if (res.data) {
           that.secondInfo = res.data;
-          // that.updataInfo = res.data;
+          that.updataInfo = res.data;
           that.secondStatus = that.secondInfo.status;
           // if(that.secondInfo.status == 1){
           // 	this.accomplish = true;
@@ -247,6 +249,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
 
     // 提交用户开店信息
     submit: function submit(e) {
+      console.log(e);
       var that = this;
       this.$api.ajax('smdc/join_us/toAdd', {
         shop_id: that.$store.state.shopId,
@@ -256,6 +259,7 @@ Object.defineProperty(exports, "__esModule", { value: true });exports.default = 
         area_id: e.area_id,
         id: that.id },
       function (res) {
+        console.log(res);
         that.$api.toast('提交成功');
         that.checkStatus();
       });
